@@ -1,0 +1,1266 @@
+* {
+	margin: 0 auto;
+	padding: 0;
+}
+
+@media screen and (max-width:900px) {
+	.including_W_F h1 {
+		font-size: 20px;
+	}
+	.including_W_F p {
+		font-size: 10px;
+		letter-spacing: 10px;
+	}
+	.including_W_F {
+		position: relative;
+		left: 10%;
+	}
+}
+
+body {
+	width: 100%;
+	vertical-align: middle;
+	user-select: none;
+}
+
+.boss {
+	background-color: #F4F4F4;
+}
+
+.takeComputerBox {
+	width: 100%;
+	height: 750px;
+	background: url(../img/flower_01.jpg);
+	background-size: cover;
+}
+
+.sufaceTransparecyBox {
+	width: 100%;
+	height: 750px;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+/*设置box1_002大小并居中*/
+
+.enterReductionBox {
+	width: 100%;
+	max-width: 1899px;
+	height: 750px;
+	/*让其完全透明*/
+	background-color: rgba(0, 0, 0, 0);
+}
+
+
+/*设置Future的大小并向左浮动*/
+
+.future {
+	float: left;
+	/*设置字体大小*/
+	font: 52px"微软雅黑";
+	/*加粗*/
+	font-weight: bold;
+	/*颜色*/
+	color: #ffffff;
+	/*调整位置*/
+	margin: 72px 0 0 14%;
+}
+
+
+/*设置电话号码和Giva us a Call的颜色*/
+
+.G {
+	color: rgb(122, 186, 25);
+}
+
+
+/*电话号码*/
+
+.telepone {
+	color: #ffffff;
+}
+
+
+/*设置电话号码和Giva us a Call的位置*/
+
+.including_G_Telepone {
+	/*设置向左浮动*/
+	float: right;
+	/*设置位置*/
+	margin: 63px 21% 0 0;
+}
+
+.S {
+	/*设置Send Email的颜色*/
+	color: rgb(122, 186, 25);
+	/*设置大小*/
+	/*font: 18px"微软雅黑";*/
+	/*加粗*/
+	font-weight: bold;
+}
+
+.mailto a {
+	/*去除下划线*/
+	text-decoration: none;
+	/*设置颜色*/
+	color: #ffffff;
+}
+
+
+/*未来软件工作室*/
+
+.W {
+	/*设置颜色*/
+	color: #ffffff;
+	/*设置大小*/
+	font: 38px"微软雅黑";
+}
+
+
+/*Future software studio*/
+
+.F {
+	/*设置颜色*/
+	color: rgb(122, 186, 25);
+	letter-spacing: 20px;
+}
+
+
+/*设置未来软件工作室和英文的位置*/
+
+.including_W_F {
+	/*向左浮动*/
+	float: left;
+	margin: 388px 0 0 -9%;
+}
+
+.including_S_Mailto {
+	/*设置位置*/
+	margin-top: 0px;
+	/*向右浮动*/
+	float: right;
+	margin-right: 4%;
+	margin-top: 61px;
+}
+
+.box2 {
+	/*让box2的盒子宽度为100%*/
+	width: 100%;
+	/*设置长度*/
+	height: 336px;
+	/*设置颜色*/
+	background-color: #f4f4f4;
+}
+
+.shuye2 {
+	margin: 100px 0 0 0;
+}
+
+
+/*创建关于我们*/
+
+.box2 h2 {
+	/*设置长宽*/
+	width: 100%;
+	/*将字体变大*/
+	font: 43px "微软雅黑";
+	/*加粗*/
+	font-weight: bold;
+	text-align: center;
+	margin: 0 0 75px 0;
+}
+
+.box3 {
+	/*为盒子设置长宽*/
+	width: 100%;
+	/*设置颜色*/
+	background-color: #f4f4f4;
+	overflow: hidden;
+}
+
+.box4_bao {
+	width: 100%;
+	height: 100px;
+	background-color: #F4F4F4;
+}
+
+
+/*设置box3左边的盒子*/
+
+.box3_01 {
+	/*设置长宽*/
+	height: 100%;
+	width: 50%;
+	/*设置颜色*/
+	background-color: #F4F4F4;
+	/*向左浮动*/
+	float: left;
+}
+
+
+/*设置未来软件工作室的字体大小*/
+
+.box3_001 {
+	font: 40px"微软雅黑";
+	/*加粗*/
+	font-weight: bold;
+	/*将字体移动*/
+	margin: 93px 5% 0 0;
+}
+
+.box3_002 {
+	/*设置fuure software studio的大小和颜色*/
+	font: 17px "微软雅黑";
+	color: rgb(122, 186, 25);
+	/*将字体移动*/
+	margin: 20px 5% 0 0;
+	letter-spacing: 6px;
+}
+
+.box3 p {
+	/*设置文字的大小*/
+	font: 17px"微软雅黑";
+	/*设置行间距*/
+	line-height: 23px;
+	/*将字体移动*/
+	margin: 40px 5% 0 0;
+	letter-spacing: 1px;
+	color: #847e78;
+}
+
+
+/*按钮*/
+
+.button {
+	height: 55px;
+	width: 17%;
+	text-decoration: none;
+	background-color: #7aba1e;
+	margin: 60px 0% 0 78%;
+	cursor: pointer;
+}
+
+.box3_02 {
+	/*设置长宽*/
+	height: 100%;
+	width: 50%;
+	max-width: 800px;
+	/*设置颜色*/
+	background-color: #F4F4F4;
+	/*向左浮动*/
+	float: left;
+}
+
+
+/*创建box3_02的四个盒子*/
+
+.box3_005 {
+	/*向左浮动*/
+	float: left;
+	/*设置边框*/
+	border: 20px solid #ffffff;
+	/*width: 27%;*/
+	/*max-width: 27%;*/
+	/*设置长度*/
+	height: 341px;
+	width: 27%;
+	/*height: 27%;*/
+	/*移动*/
+	margin: -9px 4% 0px 7%;
+	position: relative;
+}
+
+.box3_005 img {
+	width: 100%;
+	height: 100%;
+}
+
+.box3_006 {
+	/*向左浮动*/
+	float: left;
+	/*设置边框*/
+	border: 20px solid #ffffff;
+	width: 27%;
+	/*设置长度*/
+	height: 341px;
+	position: relative;
+}
+
+.box3_006 img {
+	width: 100%;
+	height: 100%;
+}
+
+.box3_003 {
+	/*向左浮动*/
+	float: left;
+	/*清楚浮动*/
+	clear: left;
+	/*设置边框*/
+	border: 20px solid #ffffff;
+	width: 27%;
+	/*设置长度*/
+	height: 341px;
+	/*移动*/
+	margin: 18px 4% 0px 7%;
+	position: relative;
+}
+
+.box3_003 img {
+	width: 100%;
+	height: 100%;
+}
+
+.box3_004 {
+	/*向左浮动*/
+	float: left;
+	/*设置边框*/
+	border: 20px solid #ffffff;
+	width: 27%;
+	/*设置长度*/
+	height: 341px;
+	margin: 34px 0 0 0;
+	position: relative;
+}
+
+.box3_004 img {
+	width: 100%;
+	height: 100%;
+}
+
+.box4 {
+	/*让box2的盒子宽度为100%*/
+	width: 100%;
+	/*设置长度*/
+	height: 300px;
+	/*设置颜色*/
+	background-color: #f4f4f4;
+}
+
+.shuye2 {
+	margin: 100px 0 0 0;
+}
+
+
+/*创建关于我们*/
+
+.box4 h2 {
+	/*将内联元素转化为块元素*/
+	display: block;
+	/*将关于我们居中*/
+	/*margin: 0 auto;*/
+	/*设置长宽*/
+	width: 100%;
+	/*将字体变大*/
+	font: 43px "微软雅黑";
+	/*加粗*/
+	font-weight: bold;
+	text-align: center;
+}
+
+
+/*设置box5的背景颜色*/
+
+.box5 {
+	background-color: #f4f4f4;
+}
+
+
+/*设置box5_01*/
+
+.box5_01 {
+	width: 100%;
+	height: 308px;
+	max-width: 1899px;
+}
+
+
+/*设置三张图片*/
+
+.box5_001 img {
+	/*向左浮动*/
+	float: left;
+	width: 23%;
+	height: 308px;
+	margin: 0 0 0 13%;
+}
+
+.box5_002 img {
+	/*向左浮动*/
+	float: left;
+	width: 23%;
+	height: 308px;
+	margin: 0 3% 0 3%;
+}
+
+.box5_003 img {
+	/*向左浮动*/
+	float: left;
+	width: 23%;
+	height: 308px;
+}
+
+
+/*设置box6的背景颜色*/
+
+.box6 {
+	background-color: #f4f4f4;
+}
+
+
+/*设置box5_01*/
+
+.box6_01 {
+	width: 100%;
+	overflow: hidden;
+	max-width: 1899px;
+}
+
+
+/*三个图片下面三个的盒子*/
+
+.box6_001 {
+	width: 23%;
+	/*height: 228px;*/
+	float: left;
+	margin: 0 0 0 13%;
+	background-color: #f4f4f4;
+}
+
+
+/*第一个盒子的文字**/
+
+.box6_001 h3 {
+	text-align: center;
+	/*字体大小*/
+	font: 22px"微软雅黑";
+}
+
+.box6_001 span {
+	/*行间距*/
+	line-height: 38px;
+	/*字体大小*/
+	font-size: 18px;
+	/*字体颜色*/
+	color: #a4a8b3;
+}
+
+.box6_002 {
+	width: 23%;
+	/*height: 288px;*/
+	float: left;
+	margin: 0 3% 0 3%;
+	background-color: #F4F4F4;
+}
+
+
+/*第二个盒子的文字**/
+
+.box6_002 h3 {
+	/*字体大小*/
+	font: 22px"微软雅黑";
+}
+
+.box6_002 span {
+	/*行间距*/
+	line-height: 38px;
+	/*字体大小*/
+	font-size: 18px;
+	/*字体颜色*/
+	color: #a4a8b3;
+}
+
+.box6_003 {
+	width: 23%;
+	/*height: 288px;*/
+	float: left;
+	background-color: #f4f4f4;
+	clear: right;
+}
+
+
+/*第三个盒子的文字**/
+
+.box6_003 h3 {
+	text-align: center;
+	/*字体大小*/
+	font: 22px"微软雅黑";
+}
+
+.box6_003 span {
+	/*行间距*/
+	line-height: 38px;
+	/*字体大小*/
+	font-size: 18px;
+	/*字体颜色*/
+	color: #a4a8b3;
+}
+
+
+/*增加box6与box7之间的距离*/
+
+.box6-7 {
+	width: 100%;
+	height: 100px;
+	background-color: #f4f4f4;
+}
+
+
+/*两个教师的固定背景*/
+
+.box7 {
+	width: 100%;
+	/*height: 900px;*/
+	background: url(../img/banner4.jpg)fixed;
+	background-size: cover;
+	overflow: hidden;
+}
+
+
+/*创建图片*/
+
+.box7_003 {
+	/*设置图片位置*/
+	text-align: center;
+	margin: 130px 0 0 0;
+}
+
+
+/*指导老师*/
+
+.box7_01 h2 {
+	/*设置颜色*/
+	color: #FFFFFF;
+}
+
+
+/*创建将教师图片固定的盒子*/
+
+.box7_01 {
+	width: 100%;
+	max-width: 1899px;
+	overflow: hidden;
+}
+
+
+/*设置教师图片和字体的两个盒子*/
+
+.box7_001 {
+	width: 31%;
+	/*height: 510px;*/
+	background-color: rgba(0, 0, 0, 0.5);
+	border: 1px;
+	/*向左浮动*/
+	float: left;
+	margin: 57px 0 0 14.432%;
+}
+
+@media only screen and (max-width:992px) {
+	.box7_002 {
+		clear: both;
+	}
+	.box7_002 {
+		width: 80% !important;
+		float: left !important;
+		margin-left: 14.432% !important;
+		margin-right: 0 !important;
+	}
+	.box7_001 {
+		width: 80%;
+	}
+}
+
+.box7_0001 {
+	background-image: url(../img/teacher01.jpg);
+	height: 125px;
+	width: 125px;
+	margin-top: 33px;
+	border: 6px solid rgb(225, 225, 225);
+	border-radius: 50%;
+}
+
+.box7_002 {
+	width: 31%;
+	/*height: 510px;*/
+	background-color: rgba(0, 0, 0, 0.5);
+	/*向右浮动*/
+	float: right;
+	margin: 57px 14.432% 0 0;
+}
+
+.box7_0002 {
+	background-image: url(../img/teacher02.jpg);
+	height: 125px;
+	width: 125px;
+	margin-top: 33px;
+	border: 6px solid rgb(225, 225, 225);
+	border-radius: 50%;
+}
+
+
+/*设置id中文字的颜色和大小*/
+
+.box7_001 #A {
+	/*设置颜色*/
+	color: #FFFFFF;
+	/*加粗*/
+	font-weight: bold;
+	/*设置大小*/
+	font-size: 17px;
+}
+
+
+/*设置其他字体的大小和颜色*/
+
+.box7_001 p {
+	/*设置颜色*/
+	color: #FFFFFF;
+	/*默认大小*/
+	font: 16px "微软雅黑";
+	/*设置行间距*/
+	line-height: 35px;
+	/*将内联元素转化成块元素*/
+	/*display: block;*/
+	margin: 0 0 36px 2%;
+}
+
+.box7_001 h3 {
+	/*设置颜色*/
+	color: #FFFFFF;
+	/*加粗*/
+	font-weight: bold;
+	/*居中*/
+	text-align: center;
+	/*设置行间距*/
+	line-height: 37px;
+}
+
+
+/*设置id中文字的颜色和大小*/
+
+.box7_002 #A {
+	/*设置颜色*/
+	color: #FFFFFF;
+	/*加粗*/
+	font-weight: bold;
+	/*设置大小*/
+	font-size: 17px;
+}
+
+
+/*设置其他字体的大小和颜色*/
+
+.box7_002 p {
+	/*设置颜色*/
+	color: #FFFFFF;
+	/*默认大小*/
+	font: 16px "微软雅黑";
+	/*设置行间距*/
+	line-height: 35px;
+	/*将内联元素转化成块元素*/
+	/*display: block;*/
+	margin: 0 0 36px 2%;
+}
+
+.box7_002 h3 {
+	/*设置颜色*/
+	color: #FFFFFF;
+	/*加粗*/
+	font-weight: bold;
+	/*居中*/
+	text-align: center;
+	/*设置行间距*/
+	line-height: 37px;
+}
+
+
+/*设置空白盒子来扩大距离*/
+
+.box7_01 {
+	width: 100%;
+	/*height: 840px;*/
+}
+
+
+/*项目展示*/
+
+.box8 {
+	/*让box2的盒子宽度为100%*/
+	width: 100%;
+	/*设置长度*/
+	height: 300px;
+	/*设置颜色*/
+	background-color: #f4f4f4;
+}
+
+.shuye2 {
+	/*将叶子居中*/
+	margin: 100px 0 0 0;
+	text-align: center;
+}
+
+
+/*创建项目展示*/
+
+.box8 h2 {
+	/*将内联元素转化为块元素*/
+	display: block;
+	/*将项目展示居中*/
+	/*margin: 0 auto;*/
+	/*设置长宽*/
+	width: 100%;
+	/*将字体变大*/
+	font: 43px "微软雅黑";
+	/*加粗*/
+	font-weight: bold;
+	text-align: center;
+}
+
+
+/*设置box9盒子为百分百*/
+
+.box9 {
+	width: 100%;
+	/*设置颜色*/
+	background-color: #f4f4f4;
+	/*解决高度塌陷*/
+	overflow: hidden;
+}
+
+.box9_001 img {
+	width: 100%;
+	height: 100%;
+}
+
+.box9_002 img {
+	width: 100%;
+	height: 100%;
+}
+
+.box9_003 img {
+	width: 100%;
+	height: 100%;
+}
+
+.box9_004 img {
+	width: 100%;
+	height: 100%;
+}
+
+.box9_005 img {
+	width: 100%;
+	height: 100%;
+}
+
+.box9_006 img {
+	width: 100%;
+	height: 100%;
+}
+
+.black-cur {
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: rgba(0, 0, 0, 0.7);
+	color: #fff;
+	text-align: center;
+	opacity: 0;
+	transition: all 1s;
+}
+
+.black-cur:hover {
+	opacity: 1;
+}
+
+@media only screen and (max-width:992px) {
+	.box9_001 {
+		width: 40% !important;
+	}
+	.box9_002 {
+		width: 40% !important;
+	}
+	.box9_003 {
+		width: 40% !important;
+		margin-left: 11% !important;
+	}
+	.box9_004 {
+		width: 40% !important;
+		margin-left: 1% !important;
+		float: left !important;
+		margin-bottom: 21px !important;
+	}
+	.box9_005 {
+		width: 40% !important;
+		margin-left: 11% !important;
+	}
+	.box9_006 {
+		width: 40% !important;
+	}
+}
+
+@media only screen and (max-width:660px) {
+	.box9_001 {
+		width: 80% !important;
+	}
+	.box9_002 {
+		width: 80% !important;
+		margin-left: 11% !important;
+	}
+	.box9_003 {
+		width: 80% !important;
+		margin-left: 11% !important;
+	}
+	.box9_004 {
+		width: 80% !important;
+		margin-left: 11% !important;
+		float: left !important;
+		margin-bottom: 21px !important;
+	}
+	.box9_005 {
+		width: 80% !important;
+		margin-left: 11% !important;
+	}
+	.box9_006 {
+		width: 80% !important;
+		margin-left: 11% !important;
+	}
+}
+
+.black-cur div {
+	width: 30%;
+	text-align: center;
+	color: #fff;
+	padding: 7px 3%;
+	background-color: #7aba1e;
+	margin-top: 90px;
+	margin-bottom: 30px;
+}
+
+
+/*设置将内容固定的盒子box9_001*/
+
+.box9_01 {
+	width: 100%;
+	max-width: 1899px;
+	/*解决高度塌陷*/
+	overflow: hidden;
+}
+
+
+/*创建六张图片*/
+
+.box9_001 {
+	/*向左浮动*/
+	float: left;
+	/*设置外边框*/
+	border: 0.7vw solid #dedede;
+	/*设置大小*/
+	width: 24%;
+	height: 282px;
+	position: relative;
+	/*圆角*/
+	border-radius: 10px;
+	/*移动*/
+	margin: 0 0 21px 11%;
+}
+
+.boxba {
+	width: 100%;
+	height: 288px;
+	background: rgba(0, 0, 0, 0);
+}
+
+@keyframes a {
+	from {
+		background: url(../img/a1.png);
+	}
+	to {
+		background: url(../img/Snipaste_2020-12-19_16-45-34.png);
+	}
+}
+
+.boxba:hover {
+	animation: a 1s;
+}
+
+.box9_002 {
+	/*向左浮动*/
+	float: left;
+	/*设置外边框*/
+	border: 0.7vw solid #dedede;
+	/*设置大小*/
+	width: 24%;
+	height: 282px;
+	position: relative;
+	/*圆角*/
+	border-radius: 10px;
+	/*移动*/
+	margin: 0 1% 21px 1%;
+}
+
+.boxbb {
+	width: 100%;
+	height: 288px;
+	background: rgba(0, 0, 0, 0);
+}
+
+@keyframes b {
+	from {
+		background: url(img/a2.png);
+	}
+	to {
+		background: url(img/Snipaste_2020-12-19_17-03-25.png)
+	}
+}
+
+.boxbb:hover {
+	animation: b 1s;
+}
+
+.box9_003 {
+	/*向左浮动*/
+	float: left;
+	/*设置外边框*/
+	border: 0.7vw solid #dedede;
+	/*设置大小*/
+	width: 24%;
+	height: 282px;
+	/*圆角*/
+	border-radius: 10px;
+	/*移动*/
+	margin: 0 0 21px 0;
+	position: relative;
+}
+
+.boxbc {
+	width: 100%;
+	height: 288px;
+	background: rgba(0, 0, 0, 0);
+}
+
+@keyframes c {
+	from {
+		background: url(img/a3.png);
+	}
+	to {
+		background: url(img/Snipaste_2020-12-19_17-06-43.png)
+	}
+}
+
+.boxbc:hover {
+	animation: c 1s;
+}
+
+.box9_004 {
+	/*向左浮动*/
+	float: left;
+	/*消除左侧浮动影响*/
+	/*clear: left;*/
+	/*设置外边框*/
+	border: 0.7vw solid #dedede;
+	/*设置大小*/
+	width: 24%;
+	height: 282px;
+	/*圆角*/
+	border-radius: 10px;
+	/*移动*/
+	margin: 0 0 0px 11%;
+	position: relative;
+}
+
+.boxbd {
+	width: 100%;
+	height: 288px;
+	background: rgba(0, 0, 0, 0);
+}
+
+@keyframes d {
+	from {
+		background: url(img/a4.png);
+	}
+	to {
+		background: url(img/Snipaste_2020-12-19_17-09-11.png)
+	}
+}
+
+.boxbd:hover {
+	animation: d 1s;
+}
+
+.box9_005 {
+	/*向左浮动*/
+	float: left;
+	/*设置外边框*/
+	border: 0.7vw solid #dedede;
+	/*设置大小*/
+	width: 24%;
+	height: 282px;
+	/*圆角*/
+	border-radius: 10px;
+	/*移动*/
+	margin: 0 1% 0 1%;
+	position: relative;
+}
+
+.boxbe {
+	width: 100%;
+	height: 288px;
+	background: rgba(0, 0, 0, 0);
+}
+
+@keyframes e {
+	from {
+		background: url(img/a5.png);
+	}
+	to {
+		background: url(img/Snipaste_2020-12-19_17-11-04.png)
+	}
+}
+
+.boxbe:hover {
+	animation: e 1s;
+}
+
+.box9_006 {
+	/*向左浮动*/
+	float: left;
+	/*设置外边框*/
+	border: 0.7vw solid #dedede;
+	/*设置大小*/
+	width: 24%;
+	height: 282px;
+	/*圆角*/
+	border-radius: 10px;
+	position: relative;
+}
+
+.boxbf {
+	width: 100%;
+	height: 288px;
+	background: rgba(0, 0, 0, 0);
+}
+
+@keyframes f {
+	from {
+		background: url(img/a6.png);
+	}
+	to {
+		background: url(img/Snipaste_2020-12-19_17-11-04.png)
+	}
+}
+
+.boxbf:hover {
+	animation: f 1s;
+}
+
+.box9-boxa {
+	width: 100%;
+	height: 102px;
+	background-color: #F4F4F4;
+}
+
+.boxa {
+	width: 100%;
+	/*height: 455px;*/
+	background-color: #000000;
+	overflow: hidden;
+}
+
+.boxa_01 {
+	width: 100%;
+	max-width: 1899px;
+	height: 395px;
+}
+
+.boxa_001 {
+	width: 25%;
+	height: 395px;
+	background: #000000;
+	/*向左浮动*/
+	float: left;
+	/*移动盒子*/
+	margin: 0 0% 0 13%;
+}
+
+@media only screen and (max-width:992px) {
+	.boxa_001 {
+		width: 80%;
+		height: 180px;
+	}
+	.boxa_002 {
+		width: 80% !important;
+		margin-left: 13%;
+		height: 235px;
+	}
+	.boxa_003 {
+		width: 80% !important;
+		margin-left: 13%;
+	}
+}
+
+.boxa_0001 {
+	/*设置最小的盒子*/
+	width: 21%;
+	height: 1px;
+	border: 1px #FFFFFF solid;
+	margin: 75px 0 0 -67%;
+}
+
+
+/*创建里面的字体*/
+
+.boxa_001 h3 {
+	font: 25px "微软雅黑";
+	margin: -20px 0 0 0;
+	color: #FFFFFF;
+}
+
+.boxa_001 p {
+	font: 18px "微软雅黑";
+	line-height: 30px;
+	margin: 18px 0 0 5%;
+	color: #858d94;
+}
+
+.boxa_002 {
+	width: 25%;
+	/*height: 395px;*/
+	background: #000000;
+	/*向左浮动*/
+	float: left;
+}
+
+.boxa_0002 {
+	/*设置最小的盒子*/
+	width: 21%;
+	height: 1px;
+	border: 1px #FFFFFF solid;
+	margin: 75px 0 0 -67%;
+}
+
+
+/*创建里面的字体*/
+
+.boxa_002 h3 {
+	font: 25px "微软雅黑";
+	margin: -20px 0 0 0;
+	color: #FFFFFF;
+}
+
+.boxa_002 p {
+	font: 18px "微软雅黑";
+	line-height: 30px;
+	margin: 16px 0 0 5%;
+	line-height: 30px;
+	color: #858d94;
+}
+
+#boxa_00001 {
+	color: #FFFFFF;
+	margin: 73px 0 0 0;
+}
+
+.boxa_003 {
+	width: 30%;
+	height: 395px;
+	background: #000000;
+	/*向左浮动*/
+	float: left;
+}
+
+.boxa_0003 {
+	/*设置最小的盒子*/
+	width: 21%;
+	height: 1px;
+	border: 1px #ffffff solid;
+	margin: 75px 0 0 -67%;
+}
+
+
+/*创建里面的字体*/
+
+.boxa_003 h3 {
+	font: 25px "微软雅黑";
+	margin: -20px 0 0 0;
+	color: #FFFFFF;
+}
+
+.smallTelepone img {
+	height: 20px;
+	width: 20px;
+	float: right;
+	margin: 85px 2% 0 0;
+}
+
+.smallEmail img {
+	height: 20px;
+	width: 20px;
+	float: right;
+	margin: 83px 2% 0 0;
+}
+
+.boxa_003 form {
+	color: #FFFFFF;
+}
+
+
+/*创建返回顶部*/
+
+.box2 a {
+	bottom: 0%;
+	right: 0%;
+	/*将其固定·*/
+	position: fixed;
+}
+
+.box2 a img {
+	/*图片的大小*/
+	height: 45px;
+	width: 48px;
+}
+
+.boxa_000001 input {
+	height: 46px;
+	width: 58%;
+	float: left;
+	border: none;
+	padding: 0;
+}
+
+.boxa_000002 input {
+	height: 46px;
+	width: 14%;
+	background-color: #7aba19;
+	float: left;
+	border: none;
+}
+
+.button {
+	color: #FFFFFF;
+	font-size: 23px;
+	border: 0px;
+}
+
+.box3_007 button:hover {
+	background-color: #c1c1c1;
+}
+
+.kuang_01 {
+	height: 50px;
+	width: 1px;
+	border: 1px solid #FFFFFF;
+	position: relative;
+	top: 336px;
+	left: 41.5%;
+}
+
+.kuang_02 {
+	height: 50px;
+	width: 1px;
+	border: 1px solid #FFFFFF;
+	position: relative;
+	top: 365px;
+	left: 41.5%;
+}
