@@ -1,0 +1,112 @@
+*{
+   margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+html{
+    min-width: 1519px;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+i{
+    font-family: "icomoon";
+    font-style: normal;
+}
+@font-face {
+    font-family: 'icomoon';
+    src:  url('fonts/icomoon.eot?rgq97g');
+    src:  url('fonts/icomoon.eot?rgq97g#iefix') format('embedded-opentype'),
+      url('fonts/icomoon.ttf?rgq97g') format('truetype'),
+      url('fonts/icomoon.woff?rgq97g') format('woff'),
+      url('fonts/icomoon.svg?rgq97g#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+.contain_banner{
+    width:1226px;
+    margin:0 auto;
+    height: 460px;
+    position: relative;
+}
+.banner{
+    width:100%;
+    height: 100%;
+    position: relative;
+}
+.banner>li{
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: all 0.3s;
+}
+.banner li:nth-child(1){
+    opacity: 1;
+}
+.banner>li img{
+    width:100%;
+    height:100%;
+}
+.left{
+    position: absolute;
+    width:50px;
+    height:100px;
+    text-align: center;
+    line-height: 100px;
+    top: 50%;
+    left: 0;
+    background-color:rgba(0, 0, 0, .0);
+    transition: all 0.3s;
+    color: black;
+}
+.left i{
+    font-size: 40px;
+}
+.left:hover{
+    background-color:rgba(0, 0, 0, .3);
+}
+.right{
+    position:absolute;
+    width:50px;
+    height:100px;
+    text-align: center;
+    line-height: 100px;
+    top: 50%;
+    right:0;
+    background-color:rgba(0, 0, 0, .0);
+    transition: all 0.3s;
+    color: black;
+}
+.right i{
+    font-size: 40px;
+}
+.right:hover{
+    background-color:rgba(0, 0, 0, .3);
+}
+.point{
+    position: absolute;
+    bottom: 50px;
+    right: 100px;
+    width:300px;
+    height:10px;
+}
+.point>a{
+    display: block;
+    float: left;
+    width:10px;
+    height:10px;
+    border-radius: 50px;
+    background-color: rgba(255, 103, 0,.3);
+    margin-right: 50px;
+}
+.point a:nth-child(1){
+    background-color: #e1251b;
+}
+.point>a:hover{
+    background-color: #e1251b;
+}

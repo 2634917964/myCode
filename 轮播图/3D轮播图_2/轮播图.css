@@ -1,0 +1,101 @@
+body{
+    perspective: 1000px;/*透视效果*/
+}
+a{
+  text-decoration: none;
+}
+@font-face {
+    font-family: 'icomoon';
+    src:  url('fonts/icomoon.eot?rgq97g');
+    src:  url('fonts/icomoon.eot?rgq97g#iefix') format('embedded-opentype'),
+      url('fonts/icomoon.ttf?rgq97g') format('truetype'),
+      url('fonts/icomoon.woff?rgq97g') format('woff'),
+      url('fonts/icomoon.svg?rgq97g#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+  i{
+    font-family: "icomoon";
+    font-style: normal;
+  }
+.banner{
+    width: 300px;
+    height:200px;
+    margin: 100px auto;
+    position: relative;
+    transform-style: preserve-3d;/*让父元素里面的盒子以3D效果显示*/
+    transition:all 0.3s  linear;/*linear匀速*/
+}
+.contain_banner{
+  width:300px;
+  height:200px;
+  margin: 0 auto;
+	position: relative;
+}
+.banner div{
+	width:300px;
+	height:200px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.banner div:nth-child(1){
+  width: 300px;
+  height:200px;
+  background-color: #f1eded;
+  border: 1px solid #ff6700;
+	transform: rotateY(0deg) translateZ(500px);/*translateZ使用时要给body添加以上元素*/
+    text-align: center;
+    color: #ff6700;
+    padding: 0 80px;
+    box-sizing: border-box;
+}
+.banner div:nth-child(2){
+	
+	transform: rotateY(60deg) translateZ(400px);
+}
+.banner div:nth-child(3){
+	
+	transform: rotateY(120deg) translateZ(400px);
+}
+.banner div:nth-child(4){
+	
+	transform: rotateY(180deg) translateZ(400px);
+}
+.banner div:nth-child(5){
+	
+	transform: rotateY(240deg) translateZ(400px);
+}
+.banner div:nth-child(6){
+    
+	transform: rotateY(300deg) translateZ(400px);
+}
+/*轮播图左右按钮*/
+.left{
+  position: absolute;
+  top: 50%;
+  left: 0;
+  font-size: 40px;
+  color: #ff6700;
+}
+.right{
+  position: absolute;
+  top: 50%;
+  right:0;
+  font-size: 40px;
+  color: #ff6700;
+}
+/*当前时间*/
+.blackBox{
+  display: block;
+  width:40px !important;
+  height:40px !important;
+  background-color: #605751;
+  float: left;
+  text-align: center;
+  line-height: 40px;
+}
+.fl{
+  float: left;
+}
